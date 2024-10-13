@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.Navbar {
+  position: sticky;
+  top: 0; /* Stick to the top */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.Navbar.scrolled {
+  border-bottom: 1px solid lightgray; /* Add a shadow effect when scrolled */
+}
