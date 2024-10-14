@@ -87,7 +87,7 @@ function Navbar() {
                         smooth={true}
                         duration={300}
                         offset={-150}
-                        class="block px-4 py-3 hover:bg-white  hover:text-black"
+                        class="block px-4 py-3 cursor-pointer hover:bg-white  hover:text-black"
                       >
                         Home
                       </ScrollLink>
@@ -98,7 +98,7 @@ function Navbar() {
                         smooth={true}
                         duration={300}
                         offset={-50}
-                        class="block px-4 py-3 hover:bg-white  hover:text-black"
+                        class="block px-4 py-3 cursor-pointer hover:bg-white  hover:text-black"
                       >
                         About
                       </ScrollLink>
@@ -109,7 +109,7 @@ function Navbar() {
                         smooth={true}
                         duration={300}
                         offset={-70}
-                        class="block px-4 py-3 hover:bg-white  hover:text-black"
+                        class="block px-4 py-3 cursor-pointer hover:bg-white  hover:text-black"
                       >
                         Services
                       </ScrollLink>
@@ -119,7 +119,7 @@ function Navbar() {
                         to="contact"
                         smooth={true}
                         duration={300}
-                        class="block px-4 py-3 hover:bg-white  hover:text-black"
+                        class="block px-4 py-3 cursor-pointer hover:bg-white  hover:text-black"
                       >
                         contact
                       </ScrollLink>
@@ -140,7 +140,7 @@ function Navbar() {
                   smooth={true}
                   duration={300}
                   offset={-150}
-                  class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent text-gray-900 md:hover:text-blue-700 md:p-0 dark:text-white "
+                  class="block py-2 px-3 cursor-pointer text-white bg-blue-700 rounded md:bg-transparent  md:hover:text-blue-700 md:p-0 dark:text-white "
                   aria-current="page"
                 >
                   Home
@@ -152,7 +152,7 @@ function Navbar() {
                   smooth={true}
                   duration={300}
                   offset={-50}
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  class="block py-2 px-3 rounded cursor-pointer hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   About
                 </ScrollLink>
@@ -163,7 +163,7 @@ function Navbar() {
                   smooth={true}
                   duration={300}
                   offset={-70}
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  class="block py-2 px-3  rounded cursor-pointer hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Services
                 </ScrollLink>
@@ -174,7 +174,7 @@ function Navbar() {
                   to="contact"
                   smooth={true}
                   duration={300}
-                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  class="block py-2 px-3 rounded cursor-pointer hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Contact
                 </ScrollLink>
