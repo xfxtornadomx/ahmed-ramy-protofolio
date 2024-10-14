@@ -495,35 +495,28 @@ function Home() {
             </div>
 
             <div class="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
-              <div class="flex flex-col items-center justify-center text-center">
-                <span class="p-4 text-indigo-600 rounded-full bg-black">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="w-6 h-6"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-                    />
-                  </svg>
-                </span>
+              <a
+                href="https://www.facebook.com/profile.php?id=100051878018273&locale=ar_AR"
+                target="_blank"
+              >
+                <div class="flex cursor-pointer flex-col items-center justify-center text-center">
+                  <span class="[&>svg]:h-9 [&>svg]:w-9 text-indigo-600">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      viewBox="0 0 320 512"
+                    >
+                      <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                    </svg>
+                  </span>
 
-                <h2 class="mt-4 text-lg font-medium text-white">
-                  Email
-                </h2>
-                <p class="mt-2 text-gray-400">
-                  Email me for collaborations and work
-                </p>
-                <p class="mt-2 text-blue-400">
-                  hello@merakiui.com
-                </p>
-              </div>
-
+                  <h2 class="mt-4 text-lg font-medium text-white">facebook</h2>
+                  <p class="mt-2 text-gray-400">
+                    reach out to me on facebook for professional work
+                  </p>
+                  <p class="mt-2 text-blue-400">Ahmed Ramy </p>
+                </div>
+              </a>
               <div class="flex flex-col items-center justify-center text-center">
                 <a
                   href="https://www.instagram.com/ahmedramy_3d/"
@@ -540,12 +533,8 @@ function Home() {
                   </span>
                 </a>
 
-                <h2 class="mt-4 text-lg font-medium text-white">
-                  Instagram
-                </h2>
-                <p class="mt-2 text-gray-400">
-                  Dm me for professional work
-                </p>
+                <h2 class="mt-4 text-lg font-medium text-white">Instagram</h2>
+                <p class="mt-2 text-gray-400">Dm me for professional work</p>
                 <p class="mt-2 text-blue-400">
                   <a
                     href="https://www.instagram.com/ahmedramy_3d/"
@@ -572,9 +561,7 @@ function Home() {
                   </span>
                 </a>
 
-                <h2 class="mt-4 text-lg font-medium text-white">
-                  Youtube
-                </h2>
+                <h2 class="mt-4 text-lg font-medium text-white">Youtube</h2>
                 <p class="mt-2 text-gray-400">
                   Explore a huge variety of creative projects and tutorials
                 </p>
