@@ -95,13 +95,13 @@ function Home() {
   return (
     <div>
       <Element name="home">
-        <section class="bg-white dark:bg-black ">
+        <section class="bg-black ">
           <div class="grid max-w-screen-2xl px-4  py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div class="mr-auto place-self-center lg:col-span-7">
-              <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+              <h1 class="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
                 Unleash your imagination in 3D
               </h1>
-              <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+              <p class="max-w-2xl mb-6 font-light  lg:mb-8 md:text-lg lg:text-xl text-gray-400">
                 Balancing technical perfection with creativity can be
                 challenging, sometimes leading to visually impressive but
                 emotionally flat creations.
@@ -115,7 +115,7 @@ function Home() {
               >
                 <motion.a
                   href="#"
-                  class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700  focus:ring-2 focus:ring-white"
+                  class="inline-flex items-center justify-center cursor-pointer px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700  focus:ring-2 focus:ring-white"
                   initial={{ backgroundColor: "#000000" }}
                   whileHover={{
                     backgroundColor: "#ffffff",
@@ -227,7 +227,7 @@ function Home() {
                   duration={400}
                 >
                   <motion.button
-                    class="sm:w-fit w-full group px-3.5 py-2 bg-white hover:bg-indigo-100 rounded-lg   ease-in-out justify-center items-center flex"
+                    class="sm:w-fit w-full group px-3.5 py-2 cursor-pointer bg-white hover:bg-indigo-100 rounded-lg   ease-in-out justify-center items-center flex"
                     whileHover={{
                       scale: 1.05,
                     }}
@@ -513,13 +513,13 @@ function Home() {
                   </svg>
                 </span>
 
-                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+                <h2 class="mt-4 text-lg font-medium text-white">
                   Email
                 </h2>
-                <p class="mt-2 text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-gray-400">
                   Email me for collaborations and work
                 </p>
-                <p class="mt-2 text-blue-500 dark:text-blue-400">
+                <p class="mt-2 text-blue-400">
                   hello@merakiui.com
                 </p>
               </div>
@@ -540,13 +540,13 @@ function Home() {
                   </span>
                 </a>
 
-                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+                <h2 class="mt-4 text-lg font-medium text-white">
                   Instagram
                 </h2>
-                <p class="mt-2 text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-gray-400">
                   Dm me for professional work
                 </p>
-                <p class="mt-2 text-blue-500 dark:text-blue-400">
+                <p class="mt-2 text-blue-400">
                   <a
                     href="https://www.instagram.com/ahmedramy_3d/"
                     target="_blank"
@@ -572,13 +572,13 @@ function Home() {
                   </span>
                 </a>
 
-                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">
+                <h2 class="mt-4 text-lg font-medium text-white">
                   Youtube
                 </h2>
-                <p class="mt-2 text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-gray-400">
                   Explore a huge variety of creative projects and tutorials
                 </p>
-                <p class="mt-2 text-blue-500 dark:text-blue-400">
+                <p class="mt-2 text-blue-400">
                   <a
                     href="https://www.youtube.com/@ahmedramy-blender.3D"
                     target="_blank"
