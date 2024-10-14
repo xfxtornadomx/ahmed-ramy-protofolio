@@ -26,7 +26,7 @@ function Navbar() {
   }, []);
   return (
     <div className="Navbar">
-      <nav class="border-gray-200 bg-black">
+      <nav class=" border-gray-200 bg-black">
         <div class=" md:max-w-screen-3xl flex flex-wrap items-center justify-between pl-5 lg:ml-12 sm:pl-10 h-[90px]">
           <a
             href="/b178807f-4433-4eca-8451-ca43dce6651c.jpeg"
@@ -87,7 +87,7 @@ function Navbar() {
                         smooth={true}
                         duration={300}
                         offset={-150}
-                        class="block px-4 py-3 hover:bg-white cursor-pointer hover:text-black"
+                        class="block px-4 py-3 hover:bg-white  hover:text-black"
                       >
                         Home
                       </ScrollLink>
@@ -98,7 +98,7 @@ function Navbar() {
                         smooth={true}
                         duration={300}
                         offset={-50}
-                        class="block px-4 py-3 hover:bg-white cursor-pointer  hover:text-black"
+                        class="block px-4 py-3 hover:bg-white  hover:text-black"
                       >
                         About
                       </ScrollLink>
@@ -109,7 +109,7 @@ function Navbar() {
                         smooth={true}
                         duration={300}
                         offset={-70}
-                        class="block px-4 py-3 hover:bg-white cursor-pointer hover:text-black"
+                        class="block px-4 py-3 hover:bg-white  hover:text-black"
                       >
                         Services
                       </ScrollLink>
@@ -119,7 +119,7 @@ function Navbar() {
                         to="contact"
                         smooth={true}
                         duration={300}
-                        class="block px-4 py-3 hover:bg-white cursor-pointer  hover:text-black"
+                        class="block px-4 py-3 hover:bg-white  hover:text-black"
                       >
                         contact
                       </ScrollLink>
@@ -130,17 +130,17 @@ function Navbar() {
             </AnimatePresence>
           </div>
           <div
-            class="hidden w-full md:pr-8 lg:pr-0 lg:mr-20  md:block md:w-auto"
-            id="navbar-default"
+            class="hidden w-full md:pr-8 lg:pr-0 lg:mr-20  md:block md:w-auto "
+            id="navbar-default "
           >
-            <ul class="font-medium flex flex-col p-4  md:p-0 mt-4  border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-12 rtl:space-x-reverse md:mt-0 md:border-0  dark:bg-gray-800 md:bg-black dark:border-gray-700 text-xl">
+            <ul class="font-medium flex flex-col p-4  md:p-0 mt-4  border border-gray-100 rounded-lg md:flex-row md:space-x-12 rtl:space-x-reverse md:mt-0 md:border-0  bg-black dark:border-gray-700 text-xl">
               <li>
                 <ScrollLink
                   to="home"
                   smooth={true}
                   duration={300}
                   offset={-150}
-                  class="block py-2 px-3 text-white bg-blue-700 cursor-pointer rounded md:bg-transparent text-gray-900 md:hover:text-blue-700 md:p-0 text-white "
+                  class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent text-gray-900 md:hover:text-blue-700 md:p-0 dark:text-white "
                   aria-current="page"
                 >
                   Home
@@ -151,9 +151,8 @@ function Navbar() {
                   to="about"
                   smooth={true}
                   duration={300}
-                  
                   offset={-50}
-                  class="block py-2 px-3 text-gray-900 rounded cursor-pointer hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   About
                 </ScrollLink>
@@ -164,7 +163,7 @@ function Navbar() {
                   smooth={true}
                   duration={300}
                   offset={-70}
-                  class="block py-2 px-3 text-gray-900 rounded cursor-pointer hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Services
                 </ScrollLink>
@@ -175,7 +174,7 @@ function Navbar() {
                   to="contact"
                   smooth={true}
                   duration={300}
-                  class="block py-2 px-3 text-gray-900 rounded cursor-pointer hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Contact
                 </ScrollLink>
