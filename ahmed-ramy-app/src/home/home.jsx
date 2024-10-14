@@ -180,7 +180,7 @@ function Home() {
                   </div>
                   <div class="w-full flex-col justify-center items-start gap-6 flex">
                     <div class="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                      <div class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                      <div class="w-full h-full p-3.5 rounded-xl border border-grey-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                         <h4 class="text-indigo-500  text-2xl font-bold font-manrope leading-9">
                           2+ Years
                         </h4>
@@ -401,7 +401,7 @@ function Home() {
               clickable: true,
             }}
             modules={[Navigation, Pagination]}
-            className="mySwiper mb-10 py-10"
+            className="mySwiper mb-10 py-10 md:mt-6 "
           >
             <SwiperSlide>
               <div className="w-full h-full max-h-[456px] ">
@@ -413,11 +413,11 @@ function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="w-full lg:w-1/2 lg:mx-auto h-full max-h-[456px]">
+              <div className="w-full lg:w-1/2 lg:my-auto lg:mx-auto h-full max-h-[456px] md:max-h-[550px]">
                 <img
                   src={daniel}
                   alt="Creative Expression 2"
-                  className="w-full object-cover h-full mx-auto rounded-xl"
+                  className="w-full object-cover h-full mx-auto rounded-xl md:-translate-y-[90px]"
                 />
               </div>
             </SwiperSlide>
