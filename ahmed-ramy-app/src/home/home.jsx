@@ -152,8 +152,8 @@ function Home() {
         </section>
       </Element>
       <Element name="about">
-        <section class="py-24 relative xl:mr-0 lg:mr-5 mr-0 bg-black ">
-          <div class="w-full max-w-7xl px-4 md:px-5 lg:px-0 mx-auto w-full ">
+        <section class="py-24 relative xl:mr-0 lg:mr-0 mr-0 bg-black ">
+          <div class=" max-w-7xl px-4 md:px-5 lg:px-0 mx-auto w-full ">
             <div class="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
               <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
                 <div class="w-full flex-col justify-center items-start gap-8 flex">
