@@ -256,9 +256,9 @@ function Home() {
                 </ScrollLink>
               </div>
               <div class="w-full  justify-center items-start flex">
-                <div class="w-full h-full  rounded-3xl sm:mt-10 relative md:ml-12">
+                <div class="w-full h-full overflow-hidden rounded-3xl sm:mt-10 relative md:ml-12">
                   <img
-                    class="pt-2 pl-11 w-full h-full "
+                    class="pt-2 pl-11 w-full h-auto"
                     src={rolex}
                     alt="about Us image"
                   />
