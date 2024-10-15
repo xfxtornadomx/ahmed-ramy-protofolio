@@ -152,7 +152,7 @@ function Home() {
         </section>
       </Element>
       <Element name="about">
-        <section class="py-24 relative xl:mr-0 lg:mr-0 mr-0 bg-black ">
+        <section class="py-24 relative xl:mr-0 mr-0 bg-black ">
           <div class=" max-w-7xl px-4 md:px-5 lg:px-0 mx-auto w-full ">
             <div class="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
               <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
@@ -255,10 +255,10 @@ function Home() {
                   </motion.button>
                 </ScrollLink>
               </div>
-              <div class="w-full lg:justify-start justify-center items-start flex">
-                <div class="w-[350px] h-[400px] md:w-[400px] md:h-[450px]  rounded-3xl  relative md:ml-12">
+              <div class="w-full  justify-center items-start flex">
+                <div class="w-full h-full  rounded-3xl sm:mt-10 relative md:ml-12">
                   <img
-                    class="mt-5 ml-5 w-full h-full rounded-3xl object-cover"
+                    class="pt-2 pl-11 w-full h-full "
                     src={rolex}
                     alt="about Us image"
                   />
