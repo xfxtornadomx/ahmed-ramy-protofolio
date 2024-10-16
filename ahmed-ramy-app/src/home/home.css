@@ -21,3 +21,6 @@
 .swiper-button-prev {
   position: relative !important;
 }
+.safari-flex {
+  display: -webkit-flex;
+}

@@ -1,5 +1,4 @@
 import "./home.css";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import React from "react";
 import sauvage from "../media/savuage.jpeg";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -95,13 +94,13 @@ function Home() {
   return (
     <div>
       <Element name="home">
-        <section class="bg-black ">
-          <div class="grid max-w-screen-2xl px-4  py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-            <div class="mr-auto place-self-center lg:col-span-7">
-              <h1 class="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
+        <section className="bg-black ">
+          <div className="grid max-w-screen-2xl px-4  py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div className="mr-auto place-self-center lg:col-span-7">
+              <h1 className="max-w-2xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
                 Unleash your imagination in 3D
               </h1>
-              <p class="max-w-2xl mb-6 font-light  lg:mb-8 md:text-lg lg:text-xl text-gray-400">
+              <p className="max-w-2xl mb-6 font-light  lg:mb-8 md:text-lg lg:text-xl text-gray-400">
                 Balancing technical perfection with creativity can be
                 challenging, sometimes leading to visually impressive but
                 emotionally flat creations.
@@ -115,7 +114,7 @@ function Home() {
               >
                 <motion.a
                   href="#"
-                  class="inline-flex items-center justify-center cursor-pointer px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700  focus:ring-2 focus:ring-white"
+                  className="inline-flex items-center justify-center cursor-pointer px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700  focus:ring-2 focus:ring-white"
                   initial={{ backgroundColor: "#000000" }}
                   whileHover={{
                     backgroundColor: "#ffffff",
@@ -126,21 +125,21 @@ function Home() {
                 >
                   Dive in
                   <svg
-                    class="w-5 h-5 ml-2 -mr-1"
+                    className="w-5 h-5 ml-2 -mr-1"
                     fill="currentColor"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
+                      fillRule="evenodd"
                       d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clip-rule="evenodd"
+                      clipRule="evenodd"
                     ></path>
                   </svg>
                 </motion.a>
               </ScrollLink>
             </div>
-            <div class=" lg:mt-0 p-6  pt-4 sm:p-4 lg:p-2 md:w-1/2 lg:w-full lg:pt-0 lg:col-span-5 lg:flex max-w-2xl  ">
+            <div className=" lg:mt-0 p-6  pt-4 sm:p-4 lg:p-2 md:w-1/2 lg:w-full lg:pt-0 lg:col-span-5 lg:flex max-w-2xl  ">
               <img
                 src={sauvage}
                 alt="mockup"
@@ -152,20 +151,20 @@ function Home() {
         </section>
       </Element>
       <Element name="about">
-        <section class="py-24 relative xl:mr-0 mr-0 bg-black ">
-          <div class=" max-w-7xl px-4 md:px-5 lg:px-0 mx-auto w-full ">
-            <div class="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
-              <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
-                <div class="w-full flex-col justify-center items-start gap-8 flex">
-                  <div class="flex-col justify-start lg:items-start items-center gap-6 flex">
-                    <h6 class="text-black text-base font-normal leading-relaxed">
+        <section className="py-24 relative xl:mr-0 mr-0 bg-black ">
+          <div className=" max-w-7xl px-4 md:px-5 lg:px-0 mx-auto w-full ">
+            <div className="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
+              <div className="w-full safari-flex flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+                <div className="w-full flex-col justify-center items-start gap-8 flex">
+                  <div className="flex-col justify-start lg:items-start items-center gap-6 flex">
+                    <h6 className="text-black text-base font-normal leading-relaxed">
                       About Us
                     </h6>
-                    <div class="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                      <h2 class="text-indigo-600 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+                    <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                      <h2 className="text-indigo-600 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
                         The Tale of Our Achievement Story
                       </h2>
-                      <p class="text-gray-100 text-base font-normal leading-relaxed lg:text-start text-center">
+                      <p className="text-gray-100 text-base font-normal leading-relaxed lg:text-start text-center">
                         Through my work, I've mastered 3D modeling, animation
                         principles, and rendering techniques, ensuring that
                         every character and environment I create feels dynamic
@@ -178,41 +177,41 @@ function Home() {
                       </p>
                     </div>
                   </div>
-                  <div class="w-full flex-col justify-center items-start gap-6 flex">
-                    <div class="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                      <div class="w-full h-full p-3.5 rounded-xl border border-grey-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                        <h4 class="text-indigo-500  text-2xl font-bold font-manrope leading-9">
+                  <div className="w-full flex-col justify-center items-start gap-6 flex safari-flex">
+                    <div className="w-full safari-flex justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
+                      <div className="w-full h-full p-3.5 rounded-xl border border-grey-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex ">
+                        <h4 className="text-indigo-500  text-2xl font-bold font-manrope leading-9">
                           2+ Years
                         </h4>
-                        <p class="text-gray-100 text-base font-normal leading-relaxed">
+                        <p className="text-gray-100 text-base font-normal leading-relaxed">
                           Bringing imagination to life through pixels
                         </p>
                       </div>
-                      <div class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                      <div className="w-full h-full  p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
                         <a>
-                          <h4 class="text-indigo-500 text-2xl font-bold font-manrope leading-9">
+                          <h4 className="text-indigo-500 text-2xl font-bold font-manrope leading-9">
                             33+ Projects
                           </h4>
                         </a>
-                        <p class="text-gray-100 text-base font-normal leading-relaxed">
+                        <p className="text-gray-100 text-base font-normal leading-relaxed">
                           Excellence Achieved Through Success
                         </p>
                       </div>
                     </div>
-                    <div class="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
-                      <div class="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                        <h4 class="text-indigo-500 text-2xl font-bold font-manrope leading-9">
+                    <div className="w-full h-full safari-flex justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
+                      <div className="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                        <h4 className="text-indigo-500 text-2xl font-bold font-manrope leading-9">
                           3+ certifications
                         </h4>
-                        <p class="text-gray-100 text-base font-normal leading-relaxed">
+                        <p className="text-gray-100 text-base font-normal leading-relaxed">
                           Our Dedication to Innovation Wins Understanding
                         </p>
                       </div>
-                      <div class="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
-                        <h4 class="text-indigo-500 text-2xl font-bold font-manrope leading-9">
+                      <div className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex">
+                        <h4 className="text-indigo-500 text-2xl font-bold font-manrope leading-9">
                           99% Happy Clients
                         </h4>
-                        <p class="text-gray-100 text-base font-normal leading-relaxed">
+                        <p className="text-gray-100 text-base font-normal leading-relaxed">
                           Mirrors our Focus on Client Satisfaction.
                         </p>
                       </div>
@@ -227,17 +226,17 @@ function Home() {
                   duration={400}
                 >
                   <motion.button
-                    class="sm:w-fit w-full group px-3.5 py-2 cursor-pointer bg-white hover:bg-indigo-100 rounded-lg   ease-in-out justify-center items-center flex"
+                    className="sm:w-fit w-full group px-3.5 py-2 cursor-pointer bg-white hover:bg-indigo-100 rounded-lg   ease-in-out justify-center items-center flex"
                     whileHover={{
                       scale: 1.05,
                     }}
                     transition={{ duration: 0.2 }}
                   >
-                    <span class="px-1.5 text-black text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-200 ease-in-out">
+                    <span className="px-1.5 text-black text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-200 ease-in-out">
                       Show projects
                     </span>
                     <svg
-                      class="group-hover:translate-x-0.5 transition-all duration-200 ease-in-out"
+                      className="group-hover:translate-x-0.5 transition-all duration-200 ease-in-out"
                       xmlns="http://www.w3.org/2000/svg"
                       width="18"
                       height="18"
@@ -247,18 +246,18 @@ function Home() {
                       <path
                         d="M6.75265 4.49658L11.2528 8.99677L6.75 13.4996"
                         stroke="#4F46E5"
-                        stroke-width="1.6"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="1.6"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                   </motion.button>
                 </ScrollLink>
               </div>
-              <div class="w-full  justify-center items-start flex">
-                <div class="w-full h-full overflow-hidden rounded-3xl sm:mt-10 relative md:ml-12">
+              <div className="w-full  justify-center items-start flex">
+                <div className="w-full h-full overflow-hidden rounded-3xl sm:mt-10 relative md:ml-12">
                   <img
-                    class="pt-2 pl-11 w-full h-auto"
+                    className="pt-2 pl-11 w-full h-auto"
                     src={rolex}
                     alt="about Us image"
                   />
@@ -269,64 +268,64 @@ function Home() {
         </section>
       </Element>
       <Element name="services">
-        <section class="py-24 relative bg-black">
-          <div class="w-full max-w-2xl lg:max-w-full px-8 lg:px-36 mx-auto">
-            <h1 class="font-manrope font-medium font-sans text-4xl text-gray-200 mb-10 max-md:text-center">
+        <section className="py-24 relative bg-black">
+          <div className="w-full max-w-2xl lg:max-w-full px-8 lg:px-36 mx-auto">
+            <h1 className="font-manrope font-medium font-sans text-4xl text-gray-200 mb-10 max-md:text-center">
               Services
             </h1>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div class="flex items-center flex-col gap-8 w-full group">
-                <div class="block">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="flex items-center flex-col gap-8 w-full group">
+                <div className="block">
                   <img
-                    class="rounded-3xl w-[400px] h-[500px]"
+                    className="rounded-3xl w-[400px] h-[500px]"
                     src={leather}
                     alt="Project Achievements of Sketch"
                   />
                 </div>
-                <div class="flex items-center justify-between max-w-[406px] lg:max-w-full w-full lg:px-0">
-                  <div class="block">
-                    <h4 class="text-2xl font-manrope font-semibold text-indigo-600 mb-2">
+                <div className="flex items-center justify-between max-w-[406px] lg:max-w-full w-full lg:px-0">
+                  <div className="block">
+                    <h4 className="text-2xl font-manrope font-semibold text-indigo-600 mb-2">
                       3D design and modeling
                     </h4>
-                    <p class="font-medium text-lg text-gray-200">
+                    <p className="font-medium text-lg text-gray-200">
                       professional modeling and design
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="group flex items-center flex-col gap-4 w-full">
-                <div class="block">
+              <div className="group flex items-center flex-col gap-4 w-full">
+                <div className="block">
                   <img
-                    class="rounded-3xl object-cover h-[500px]"
+                    className="rounded-3xl object-cover h-[500px]"
                     src={blender}
                     alt="Project Achievements of Figma"
                   />
                 </div>
-                <div class="flex items-center justify-between max-w-[406px] lg:max-w-full w-full lg:px-0">
-                  <div class="block">
-                    <h4 class="text-2xl font-manrope font-semibold text-indigo-600 mb-2">
+                <div className="flex items-center justify-between max-w-[406px] lg:max-w-full w-full lg:px-0">
+                  <div className="block">
+                    <h4 className="text-2xl font-manrope font-semibold text-indigo-600 mb-2">
                       blender
                     </h4>
-                    <p class="font-medium text-lg text-gray-200">
+                    <p className="font-medium text-lg text-gray-200">
                       2+ years of experience in blender
                     </p>
                   </div>
                 </div>
               </div>
-              <div class="group flex items-center flex-col gap-8 w-full md:w-1/2 mx-auto md:col-span-2 lg:col-span-1 lg:w-full">
-                <div class="block">
+              <div className="group flex items-center flex-col gap-8 w-full md:w-1/2 mx-auto md:col-span-2 lg:col-span-1 lg:w-full">
+                <div className="block">
                   <img
-                    class="rounded-3xl object-cover h-[500px]"
+                    className="rounded-3xl object-cover h-[500px]"
                     src={camera}
                     alt="Project Achievements of Frame.io"
                   />
                 </div>
-                <div class="flex items-center justify-between max-w-[406px] lg:max-w-full w-full lg:px-0">
-                  <div class="block">
-                    <h4 class="text-2xl font-manrope font-semibold text-indigo-600 mb-2">
+                <div className="flex items-center justify-between max-w-[406px] lg:max-w-full w-full lg:px-0">
+                  <div className="block">
+                    <h4 className="text-2xl font-manrope font-semibold text-indigo-600 mb-2">
                       Model animator
                     </h4>
-                    <p class="font-medium text-lg text-gray-200">
+                    <p className="font-medium text-lg text-gray-200">
                       Experience in animating 3d models
                     </p>
                   </div>
@@ -480,27 +479,27 @@ function Home() {
         </section>
       </Element>
       <Element name="contact">
-        <section class="pb-12 bg-black">
-          <div class="container px-2 lg:px-20 lg:max-w-full py-12 mx-auto">
-            <div class="text-center">
-              <p class="font-medium text-lg text-gray-400">Contact us</p>
+        <section className="pb-12 bg-black">
+          <div className="container px-2 lg:px-20 lg:max-w-full py-12 mx-auto">
+            <div className="text-center">
+              <p className="font-medium text-lg text-gray-400">Contact us</p>
 
-              <h1 class="mt-6 text-2xl font-semibold text-gray-100 md:text-4xl">
+              <h1 className="mt-6 text-2xl font-semibold text-gray-100 md:text-4xl">
                 Get in touch
               </h1>
 
-              <p class="mt-6 text-lg text-indigo-500 pb-6 ">
+              <p className="mt-6 text-lg text-indigo-500 pb-6 ">
                 24 Hours Dm availability
               </p>
             </div>
 
-            <div class="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
               <a
                 href="https://www.facebook.com/profile.php?id=100051878018273&locale=ar_AR"
                 target="_blank"
               >
-                <div class="flex cursor-pointer flex-col items-center justify-center text-center">
-                  <span class="[&>svg]:h-9 [&>svg]:w-9 text-indigo-600">
+                <div className="flex cursor-pointer flex-col items-center justify-center text-center">
+                  <span className="[&>svg]:h-9 [&>svg]:w-9 text-indigo-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -510,19 +509,21 @@ function Home() {
                     </svg>
                   </span>
 
-                  <h2 class="mt-4 text-lg font-medium text-white">facebook</h2>
-                  <p class="mt-2 text-gray-400">
+                  <h2 className="mt-4 text-lg font-medium text-white">
+                    facebook
+                  </h2>
+                  <p className="mt-2 text-gray-400">
                     reach out to me on facebook for professional work
                   </p>
-                  <p class="mt-2 text-blue-400">Ahmed Ramy </p>
+                  <p className="mt-2 text-blue-400">Ahmed Ramy </p>
                 </div>
               </a>
-              <div class="flex flex-col items-center justify-center text-center">
+              <div className="flex flex-col items-center justify-center text-center">
                 <a
                   href="https://www.instagram.com/ahmedramy_3d/"
                   target="_blank"
                 >
-                  <span class="[&>svg]:h-9 [&>svg]:w-9 text-indigo-600">
+                  <span className="[&>svg]:h-9 [&>svg]:w-9 text-indigo-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -533,9 +534,13 @@ function Home() {
                   </span>
                 </a>
 
-                <h2 class="mt-4 text-lg font-medium text-white">Instagram</h2>
-                <p class="mt-2 text-gray-400">Dm me for professional work</p>
-                <p class="mt-2 text-blue-400">
+                <h2 className="mt-4 text-lg font-medium text-white">
+                  Instagram
+                </h2>
+                <p className="mt-2 text-gray-400">
+                  Dm me for professional work
+                </p>
+                <p className="mt-2 text-blue-400">
                   <a
                     href="https://www.instagram.com/ahmedramy_3d/"
                     target="_blank"
@@ -545,12 +550,12 @@ function Home() {
                 </p>
               </div>
 
-              <div class="flex flex-col items-center justify-center text-center">
+              <div className="flex flex-col items-center justify-center text-center">
                 <a
                   href="https://www.youtube.com/@ahmedramy-blender.3D"
                   target="_blank"
                 >
-                  <span class="[&>svg]:h-9 [&>svg]:w-9 text-indigo-600">
+                  <span className="[&>svg]:h-9 [&>svg]:w-9 text-indigo-600">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -561,11 +566,11 @@ function Home() {
                   </span>
                 </a>
 
-                <h2 class="mt-4 text-lg font-medium text-white">Youtube</h2>
-                <p class="mt-2 text-gray-400">
+                <h2 className="mt-4 text-lg font-medium text-white">Youtube</h2>
+                <p className="mt-2 text-gray-400">
                   Explore a huge variety of creative projects and tutorials
                 </p>
-                <p class="mt-2 text-blue-400">
+                <p className="mt-2 text-blue-400">
                   <a
                     href="https://www.youtube.com/@ahmedramy-blender.3D"
                     target="_blank"
