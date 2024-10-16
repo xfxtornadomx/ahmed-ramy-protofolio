@@ -178,7 +178,7 @@ function Home() {
                     </div>
                   </div>
                   <div className="w-full flex-col justify-center items-start gap-6 flex safari-flex">
-                    <div className="w-full safari-flex justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
+                    <div className="w-full safari-flex justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
                       <div className="w-full h-full p-3.5 rounded-xl border border-grey-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex ">
                         <h4 className="text-indigo-500  text-2xl font-bold font-manrope leading-9">
                           2+ Years

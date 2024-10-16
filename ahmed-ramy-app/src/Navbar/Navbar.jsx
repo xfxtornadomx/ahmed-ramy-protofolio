@@ -24,7 +24,7 @@ function Navbar() {
     };
   }, []);
   return (
-    <div className="Navbar" id="navbar-default">
+    <div className="Navbar">
       <nav className=" border-gray-200 bg-black">
         <div className=" md:max-w-screen-3xl flex flex-wrap items-center justify-between pl-5 lg:ml-12 sm:pl-10 h-[90px]">
           <a
